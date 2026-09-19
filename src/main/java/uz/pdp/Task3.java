@@ -38,12 +38,14 @@ public class Task3 {
 
         System.out.println("Har bir guruhdagi eng yuqori talabalar");
         maxGradeByGroup.forEach((group, studentOpt) ->
-                studentOpt.ifPresent(s -> System.out.println("Guruh " + group + " -> Max: " + s.getFullName() + s.getGrade()))
+                studentOpt.ifPresent(s -> System.out.println("Guruh " + group + " -> Max: "
+                        + s.getFullName() + s.getGrade()))
         );
 
         System.out.println("\nHar bir guruhdagi eng past talabalar");
         minGradeByGroup.forEach((group, studentOpt) ->
-                studentOpt.ifPresent(s -> System.out.println("Guruh " + group + " -> Min: " + s.getFullName() + s.getGrade()))
+                studentOpt.ifPresent(s -> System.out.println("Guruh " + group + " -> Min: "
+                        + s.getFullName() + s.getGrade()))
         );
 
         System.out.println("\nGuruhlar bo'yicha saralangan talabalar");
@@ -60,7 +62,7 @@ public class Task3 {
 
         groupedAndSorted.forEach((group, students) -> {
             System.out.println("\n=== Guruh: " + group + " ===");
-            students.forEach(s -> System.out.println(s.getFullName() + " | Grade: " + s.getGrade()));
+            students.forEach(s -> System.out.println(s.getFullName() + " | Bahosi: " + s.getGrade()));
         });
 
         System.out.println("\n--- Yoshi 20 dan katta TOP 3 talaba ---");
