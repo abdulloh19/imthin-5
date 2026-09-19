@@ -1,0 +1,5 @@
+Predicate -> bu qiymatni tekshiradi va true yoki false qaytaradi
+Function -> bitta turdagi qiymatni olib boshqa yoki osha turdagi yangi natijani xisoblab     qaytaradi
+Consumer -> qiymatni qabul qiladi va u bilan biror amal bajaradi, lekin xech narsa qaytarmaydi
+Supplier -> tashqaridan xech qanday parametr qabul qilmaydi faqat chaqirliganda yangi qiymat yoki
+yangi obyekt yaratib/topib beradi

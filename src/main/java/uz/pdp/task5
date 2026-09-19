@@ -1,0 +1,6 @@
+functional interface nima = functional interface bu ichida bitta abstract
+ method bolgan interface bu functional interface deyiladi
+
+@FunctionalInterface annotatsiya nimani anglatadi = @FunctionalInterface annotatsiya shu
+ method functional interface ekanligini bildiradi agar ichiga yana abstract method
+ yozsak compile timeda ogohlantiradi bu functional interface deb.
